@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+$font-family-sans-serif: 'Montserrat', sans-serif;
+
+
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import 'animate.css';
+
+
+// for loader page 
+.loader-img{
+    width: 60px;
+    transition: 0.5s;
+    animation: rotate 1s infinite;
+}
+
+@keyframes rotate {
+    from{
+        transform: rotate(360deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+// loader page end 
+
+// for items 
+.item-img{
+    height: 150px;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    margin: auto;
+}
+.item-card{
+    height: 100%;
+    padding: 15px 20px;
+}
